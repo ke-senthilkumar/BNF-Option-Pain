@@ -6,6 +6,14 @@ With the changes implemented by NSE India in their old website (www1.nseindia.co
 
 I have also added few charts to display OI, Change in OI and Volume data. There is also a chart which displays Option Pain value over time. If used correctly, this can really alter your trading style.
 
+# Main 
+
+![alt text](https://github.com/ke-senthilkumar/BNF-Option-Pain/blob/main/bnf_main.png?raw=true)
+
+# Extended charts
+
+![alt text](https://github.com/ke-senthilkumar/BNF-Option-Pain/blob/main/bnf_chart.png?raw=true)
+
 NOTE: 
 1. The data refresh is set to 10 min. One can alter this value from the Data-Connections-<connection>-Properties-Refresh Every .... option. Dont go below 5min, otherwise the exchange might blacklist the IP
 2. Sometimes, the data is not fetched and error occurs. This is known issue in the .Net framework. Try to follow the instructions in the Help tab.
